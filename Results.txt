@@ -1,0 +1,75 @@
+
+C:\Workspace\Multiple_Title_Validation>java -jar C:\Workspace\Multiple_Title_Val
+idation\target\Multiple_Title_Validation-1.2-jar-with-dependencies.jar "http://w
+ww.learn2test.net|learn2test.net" "www.learn2test.net|blah" "www.alegro.com|aleg
+ro.com" " www.alegro.com|abc"  "http://www.cnn.com|Breaking News, U.S., World, W
+eather, Entertainment & Video News - CNN.com" "www.apple.com|Apple" "www.apple.c
+om|jhfgyg" "www.google.com|Google" "http://www.memocast.com|Watch Russian Movies
+ Online @ Memocast.com (iPad, PC, Google TV)" "https://www.victoriassecret.com|V
+ictoria's Secret: The Sexiest Bras, Lingerie & Women's Fashion"
+
+Test Case ID:           TC-001.01
+URL:                    http://www.learn2test.net
+Title Expected:         learn2test.net
+Title Actual:           learn2test.net
+Test Case Result:       PASSED
+
+Test Case ID:           TC-001.02
+URL:                    www.learn2test.net
+Title Expected:         blah
+Title Actual:           learn2test.net
+Test Case Result:       FAILED
+
+Test Case ID:           TC-001.03
+URL:                    www.alegro.com
+Title Expected:         alegro.com
+Title Actual:           www.alegro.com
+Test Case Result:       FAILED
+
+Test Case ID:           TC-001.04
+URL:                     www.alegro.com
+Title Expected:         abc
+Title Actual:           www.alegro.com
+Test Case Result:       FAILED
+
+Test Case ID:           TC-001.05
+URL:                    http://www.cnn.com
+Title Expected:         Breaking News, U.S., World, Weather, Entertainment & Vid
+eo News - CNN.com
+Title Actual:           Breaking News, U.S., World, Weather, Entertainment & Vid
+eo News - CNN.com
+Test Case Result:       PASSED
+
+Test Case ID:           TC-001.06
+URL:                    www.apple.com
+Title Expected:         Apple
+Title Actual:           Apple
+Test Case Result:       PASSED
+
+Test Case ID:           TC-001.07
+URL:                    www.apple.com
+Title Expected:         jhfgyg
+Title Actual:           Apple
+Test Case Result:       FAILED
+
+Test Case ID:           TC-001.08
+URL:                    www.google.com
+Title Expected:         Google
+Title Actual:           Google
+Test Case Result:       PASSED
+
+Test Case ID:           TC-001.09
+URL:                    http://www.memocast.com
+Title Expected:         Watch Russian Movies Online @ Memocast.com (iPad, PC, Go
+ogle TV)
+Title Actual:           Watch Russian Movies Online @ Memocast.com (iPad, PC, Go
+ogle TV)
+Test Case Result:       PASSED
+
+Test Case ID:           TC-001.010
+URL:                    https://www.victoriassecret.com
+Title Expected:         Victoria's Secret: The Sexiest Bras, Lingerie & Women's
+Fashion
+Title Actual:           Victoria's Secret: The Sexiest Bras, Lingerie & Women's
+Fashion
+Test Case Result:       PASSED
